@@ -78,6 +78,8 @@ ul{
     background: #FF0043;
     box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
     border-radius: 30px;
+    display: block;
+    width: max-content;
 }
 .about__body{
     padding: 80px 0;
@@ -123,4 +125,29 @@ ul{
     text-decoration-line: underline;
     color: #00194A;
     opacity: 0.5;
+}
+.time__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+.title{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+}
+.time__title{
+    margin-bottom: 30px;
+}
+.txt{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+    opacity: 0.8;
+}
+.time__txt:nth-of-type(1){
+    margin-bottom: 30px;
 }

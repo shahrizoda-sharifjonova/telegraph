@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -59,4 +60,67 @@ ul{
 }
 .intro__img{
     max-width: 600px;
+}
+.intro__txt{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+.btn{
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    background: #FF0043;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    border-radius: 30px;
+}
+.about__body{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+.about__item{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+.about__img{
+    margin-bottom: 25px;
+}
+.about__title{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #00194A;
+}
+.about__txt{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #00194A;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.about-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__info{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #00194A;
+    opacity: 0.5;
 }

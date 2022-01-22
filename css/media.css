@@ -34,6 +34,10 @@
     .share-item__title{
         font-size: 16px;
     }
+    .app__body{
+        width: 100% !important;
+        border-radius: 0;
+    }
 }
 @media(max-width:1024px){
     .intro__title{
@@ -67,7 +71,7 @@
         width: 380px;
     }
     .time__img{
-        width: 600px;
+        width: 490px;
     }
     .title{
         font-size: 28px;
@@ -191,6 +195,9 @@
     .about__item{
         padding: 20px;
     }
+    .app__title{
+        font-size: 32px;
+    }
 }
 @media(max-width:665px){
     .intro__title{
@@ -251,6 +258,9 @@
         justify-content: center;
         row-gap: 30px;
     }
+    .app__title{
+        font-size: 28px;
+    }
 }
 @media(max-width:510px){
     .intro__title{
@@ -287,6 +297,12 @@
     .groups__title{
         font-size: 22px;
         margin-bottom: 15px;
+    }
+    .app__title{
+        font-size: 25px;
+    }
+    .app__txt{
+        max-width: 370px;
     }
  }
  @media(max-width: 445px){
@@ -341,6 +357,12 @@
     }
     .groups__img{
         width: 300px;
+    }
+    .app__title{
+        font-size: 22px;
+    }
+    .app__txt{
+        font-size: 325px;
     }
  }
 @media(max-width: 356px){

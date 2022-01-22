@@ -217,6 +217,9 @@ ul{
 }
 .app__title{
     color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
     margin-bottom: 30px;
 }
 .app__txt{

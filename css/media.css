@@ -261,6 +261,16 @@
     .app__title{
         font-size: 28px;
     }
+    .footer__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .footer__link{
+        font-weight: normal;
+    }
 }
 @media(max-width:510px){
     .intro__title{

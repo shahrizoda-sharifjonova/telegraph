@@ -362,7 +362,8 @@
         font-size: 22px;
     }
     .app__txt{
-        font-size: 325px;
+        max-width: 325px;
+        font-size: 14px;
     }
  }
 @media(max-width: 356px){

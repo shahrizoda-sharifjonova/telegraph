@@ -206,3 +206,23 @@ ul{
 .groups__title{
      margin-bottom: 30px;
 }
+.app__body{
+    padding: 50px 0;
+    background: #00194A;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app__title{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.app__txt{
+    color: #fff;
+    max-width: 580px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}

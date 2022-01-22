@@ -12,7 +12,6 @@
     }
     .time__body{
         padding-top: 0;
-        padding-bottom: 60px;
     }
     .time__img{
         width: 600px;
@@ -28,6 +27,12 @@
     }
     .intro__img{
         width: 450px;
+    }
+    .share__item{
+        padding: 20px 10px;
+    }
+    .share-item__title{
+        font-size: 16px;
     }
 }
 @media(max-width:1024px){
@@ -45,6 +50,14 @@
         font-size: 32px;
         max-width: 330px;
     }
+    .share__title{
+        font-size: 30px;
+    }
+    .share__txt{
+        max-width: 380px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
 }
 @media(max-width:992px){
     .intro__img{
@@ -55,6 +68,31 @@
     }
     .title{
         font-size: 28px;
+    }
+}
+@media(max-width: 950px){
+    .share__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+    .share__right{
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        column-gap: 40px;
+    }
+    .share__item{
+        transform: translate(0) !important;
+    }
+    .share__title{
+        max-width: 510px;
+        width: 100%;
+    }
+    .share__txt{
+        max-width: 505px;
     }
 }
 @media(max-width:935px){
@@ -183,6 +221,13 @@
         font-size: 25px;
         margin-bottom: 10px;
     }
+    .share__right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 30px;
+    }
 }
 @media(max-width:510px){
     .intro__title{
@@ -206,6 +251,13 @@
     .time__title{
         font-size: 22px;
     }
+    .share__title{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .share__txt{
+        max-width: 400px;
+    }
  }
 @media(max-width:421px){
     .intro__title{
@@ -228,6 +280,14 @@
     .time__title{
         font-size: 16px;
     }
+    .share__title{
+        font-size: 20px;
+    }
+    .share__txt{
+        font-size: 15px;
+        max-width: 340px;
+        margin-bottom: 15px;
+    }
  }
 @media(max-width: 356px){
     .intro__title{
@@ -248,5 +308,12 @@
     }
     .intro__body{
         padding-bottom: 20px;
+    }
+    .share__title{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .share__txt{
+        max-width: 300px;
     }
  }

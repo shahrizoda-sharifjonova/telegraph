@@ -197,3 +197,12 @@ ul{
 .share__item:nth-of-type(3){
     transform: translate(-300px, -100px);
 }
+.groups__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.groups__title{
+     margin-bottom: 30px;
+}
